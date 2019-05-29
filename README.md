@@ -1,3 +1,3 @@
 # Flexbox-mine
 
-<https://senneberger.github.io/Flexbox-mine/box.html
+https://senneberger.github.io/Flexbox-mine/box.html
