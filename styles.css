@@ -83,6 +83,7 @@ html, body {
   box-sizing: border-box;
   border-width: 2px;
   box-shadow: 2px 2px;
+  border-top: solid white; border-left: solid white;
 }
 img {
   height: 50px;
