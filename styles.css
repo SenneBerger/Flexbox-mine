@@ -1,0 +1,90 @@
+html, body {
+
+}
+#minefield {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  src: local('Roboto Mono Bold'), local('RobotoMono-Bold'), url(https://fonts.gstatic.com/s/robotomono/v6/L0xkDF4xlVMF-BfR8bXMIjDwjmq8f7-7Ag.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  text-align: center;
+}
+#minefield {
+  height: 400px;
+  width: 400px;
+  background-color: darkgrey;
+  border-style: ridge; border-width:medium;
+  border-color: black;
+  box-shadow: -5px -5px; color: #4c4c4c;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 50%;
+  margin-left: 50%;
+  margin-bottom: 50%;
+  margin-top: 50%;}
+.box {
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: center;
+
+}
+.ones {
+  height: 50px; width: 50px;
+  border-style: dotted;
+  text-align: center;
+  border-color: black;
+  box-sizing: border-box;
+  border-width: 1px;
+  color: blue;
+
+}
+.two {
+  height: 50px; width: 50px;
+  border-style: dotted;
+  text-align: center;
+  border-color: black;
+  box-sizing: border-box;
+  border-width: 1px;
+  color: green;
+}
+.three {
+  height: 50px; width: 50px;
+  border-style: dotted;
+  text-align: center;
+  border-color: black;
+  box-sizing: border-box;
+  border-width: 1px;
+  color: red;
+}
+.mine {
+  height: 50px; width: 50px;
+  border-style: dotted;
+  text-align: center;
+  border-color: black;
+  box-sizing: border-box;
+  border-width: 1px;
+}
+.discovered {
+  height: 50px; width: 50px;
+  border-style: dotted;
+  text-align: center;
+  border-color: black;
+  box-sizing: border-box;
+  border-width: 1px;
+}
+.undiscovered{
+  height: 50px; width: 50px;
+  border-style: solid;
+  text-align: center;
+  border-color: black;
+  box-sizing: border-box;
+  border-width: 2px;
+  box-shadow: 2px 2px;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
