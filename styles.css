@@ -86,6 +86,19 @@ html, body {
   border-width: 2px;
   box-shadow: 2px 2px;
   border-top: solid white; border-left: solid white;
+
+}
+.undiscovered:hover {
+  border-style: dotted;
+  text-align: center;
+  border-color: black;
+  border-width: 1px;
+}
+span {
+  opacity: 0.0;
+}
+span:hover {
+  opacity: 1.0;
 }
 img {
   height: 50px;
